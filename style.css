@@ -1,11 +1,11 @@
 body{
     margin: 0px;
+
 }
 #board{
     background-color: midnightblue;
-    height: 600px;
+    height: 300px;
     width: 100%;
-    margin: 0px;
     position: relative;
 }
 
@@ -14,7 +14,7 @@ body{
     width: 70px;
     height: 70px;
     position: absolute;
-    bottom: 267px;
+    bottom: 730px;
     left: 50px;
 }
 
@@ -43,10 +43,10 @@ body{
 
 @keyframes playerJump{
     0%{
-        bottom: 300px;
+        bottom: 730px;
     }
-    45%, 55%{
-        bottom: 380px;
+    90%{
+        bottom: 780px;
     }
 }
 
@@ -57,4 +57,10 @@ body{
     to {
         background-position: -1000px 0;
     }
+}
+
+#cactus{
+    position: absolute;
+    width: 55px;
+    height: 80px;
 }
